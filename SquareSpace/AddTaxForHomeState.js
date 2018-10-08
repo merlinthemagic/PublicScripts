@@ -174,12 +174,13 @@ function triggerLoop()
 {
 	if (getSave() == null) {
 		
-		failCount	= 0;
-		delayMs		-= 125;
-		if (delayMs < 0) {
-			delayMs	= 0;
-		}
 		if (loopReady === true) {
+			
+			failCount	= 0;
+			delayMs		-= 125;
+			if (delayMs < 0) {
+				delayMs	= 0;
+			}
 			
 			var nextData	= getData().shift();
 			if (typeof nextData == 'undefined') {
