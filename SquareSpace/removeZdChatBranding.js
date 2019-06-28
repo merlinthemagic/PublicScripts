@@ -1,3 +1,4 @@
+<!-- Place directly under the widget script -->
 <!-- Start of remove Zendesk branding script -->
 <script type="text/javascript">
    zE(function() {
