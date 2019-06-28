@@ -15,7 +15,7 @@
            }
          }
        }
-     }, 1000);
+     }, 3000);
    });
 </script>
 <!-- End of remove Zendesk branding script -->
